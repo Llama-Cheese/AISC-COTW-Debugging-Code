@@ -6,7 +6,7 @@ num3 = input("Enter the third number: ")
 average = num1 + num2 + num3 / 3
 
 print("The average of the three numbers is: ", average)'''
-# Outcome = TypeError: unsupported operand type(s) for /: 'str' and 'int'
+# Outcome = TypeError: unsupported operand type(s) for: 'str' and 'int'
 
 
 
@@ -17,7 +17,7 @@ num3 = int(input("Enter the third number: "))
 average = (num1 + num2 + num3) / 3
 print("The average of the three numbers is: ", average)
 # Here we inroduced int() to convert the input to an integer
-# Then we a;so added brackets to the sum of the three numbers because maths 
+# Then we added brackets to the sum of the three numbers because maths 
 # And BOOM ! It works!
 # Outcome = The average of the three numbers is:  Whatevet the average is
 
